@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1578674040 source:/home/ishan/Desktop/Data_StructureAnd_Algo_Udemy/LinkedList/main.c
+	<stdio.h>
+	<stdlib.h>
+
