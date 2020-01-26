@@ -123,6 +123,7 @@ void insertAtBeginning()
 	traverseList(temp1);
 	deleteNodeBetween(temp1);
 	traverseList(temp1);
+	reverseList(temp1);
 }
 
 /**
@@ -198,6 +199,37 @@ void deleteNodeBetween(struct Node* n4)
 	}
 	/*Logic to link the current node with next to next node bypassing the node to be deleted*/
 	n4->link = n4->link->link;
+}
+
+/**
+Description: This function reverses a linked list.
+Param: variable of type Node
+Return: NA
+*/
+void reverseList(struct Node* n5)
+{
+    /*Declare variables*/
+    struct Node *prev,*nxt;
+    prev = NULL;
+    /*Logic to make the existing linked list in reverse order*/
+    while(n5->link != NULL)
+    {
+        nxt = n5->link;
+        n5->link = prev;
+        prev = n5;
+        n5 = nxt;
+
+    }
+    n5->link = prev;
+    /*Print linked list*/
+    printf("\nReverse order: ");
+    while(n5 != NULL)
+    {
+        printf("%d ",n5->info);
+        n5 = n5->link;
+    }
+
+
 }
 
 int main() {
