@@ -147,6 +147,28 @@ void deleteBetweenNode(struct node *head)
     head->prev = NULL;
 }
 
+/** \brief : This function reverses a list.
+ * \param : struct node
+ * \return : void
+ */
+
+void reverseDoubleLinkList(struct node *head)
+{
+    /*Logic to reach the end of the linked list*/
+    while(head->next != NULL)
+    {
+        head = head->next;
+    }
+    /*Logic to print the list in reverse order*/
+    printf("\nReverse list: ");
+    while(head != NULL)
+    {
+        printf("%d ",head->data);
+        head = head->prev;
+    }
+}
+
+
 int main()
 {
     /*Executing all the functions*/
@@ -163,5 +185,6 @@ int main()
     displayList(start);
     deleteBetweenNode(start);
     displayList(start);
+    reverseDoubleLinkList(start);
     return 0;
 }
