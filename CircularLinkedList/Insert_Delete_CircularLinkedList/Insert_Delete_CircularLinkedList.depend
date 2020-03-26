@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585255915 source:c:\users\ishan\codeblock_workspace\data_structureand_algo_udemy\circularlinkedlist\insert_delete_circularlinkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+
