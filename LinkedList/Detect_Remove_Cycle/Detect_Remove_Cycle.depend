@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585608980 source:c:\users\ishan\codeblock_workspace\data_structureand_algo_udemy\linkedlist\detect_remove_cycle\main.c
+	<stdio.h>
+	<stdlib.h>
+
