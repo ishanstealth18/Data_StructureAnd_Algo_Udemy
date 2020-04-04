@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1586016711 source:c:\users\ishan\codeblock_workspace\data_structureand_algo_udemy\stack_and_queue\queue_via_array\main.c
+	<stdio.h>
+	<stdlib.h>
+
