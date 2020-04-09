@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586400402 source:c:\users\ishan\codeblock_workspace\data_structureand_algo_udemy\stack_and_queue\nested_parenthesis_validity_check\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
