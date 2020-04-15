@@ -30,6 +30,6 @@ int findFactorial(int num)
 
 int main()
 {
-    printf("Answer: %d",findFactorial(10));
+    printf("Answer: %d",findFactorial(3));
     return 0;
 }
