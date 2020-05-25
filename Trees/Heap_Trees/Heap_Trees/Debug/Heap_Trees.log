@@ -1,0 +1,6 @@
+﻿  Main.c
+C:\Users\ishan\Visual_Studio_Projects\Data_StructureAnd_Algo_Udemy\Trees\Heap_Trees\Heap_Trees\Main.c(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\ishan\Visual_Studio_Projects\Data_StructureAnd_Algo_Udemy\Trees\Heap_Trees\Heap_Trees\Main.c(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\ishan\Visual_Studio_Projects\Data_StructureAnd_Algo_Udemy\Trees\Heap_Trees\Heap_Trees\Main.c(165,16): warning C4047: 'function': 'int *' differs in levels of indirection from 'int (*)[50]'
+C:\Users\ishan\Visual_Studio_Projects\Data_StructureAnd_Algo_Udemy\Trees\Heap_Trees\Heap_Trees\Main.c(165,16): warning C4024: 'insertHeap': different types for formal and actual parameter 1
+  Heap_Trees.vcxproj -> C:\Users\ishan\Visual_Studio_Projects\Data_StructureAnd_Algo_Udemy\Trees\Heap_Trees\Debug\Heap_Trees.exe
